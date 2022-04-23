@@ -157,7 +157,7 @@ jobs:
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-api-tests:
+    api-tests:
    timeout-minutes: 15
    runs-on: ubuntu-latest
    container:
