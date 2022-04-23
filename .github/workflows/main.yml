@@ -5,7 +5,7 @@ on:
     branches-ignore:
       - "renovate/**"
 
-    jobs:
+jobs:
   install:
     runs-on: ubuntu-latest
     container: 
