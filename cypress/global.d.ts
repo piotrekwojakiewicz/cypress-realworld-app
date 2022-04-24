@@ -70,12 +70,7 @@ declare namespace Cypress {
      * Fetch React component instance associated with received element subject
      */
     reactComponent(): Chainable<any>;
-
-    /**
-     * Select data range within date range picker component
-     */
-    pickDateRange(startDate: Date, endDate: Date): Chainable<void>;
-
+    
     /**
      * Logs-in user by using UI
      */
